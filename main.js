@@ -1,13 +1,13 @@
 // Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyC-A55dMuGkxAfjeq2ThB3L5noW50SuLQ4",
-    authDomain: "trolley-b7ca8.firebaseapp.com",
-    databaseURL: "https://trolley-b7ca8-default-rtdb.firebaseio.com",
-    projectId: "trolley-b7ca8",
-    storageBucket: "trolley-b7ca8.firebasestorage.app",
-    messagingSenderId: "365000237687",
-    appId: "1:365000237687:web:2016fc471f256f0e0b1c72",
-    measurementId: "G-KNZSZEM9W6"
+    apiKey: "***",
+    authDomain: "***",
+    databaseURL: "***",
+    projectId: "***",
+    storageBucket: "***",
+    messagingSenderId: "***",
+    appId: "***",
+    measurementId: "***"
   };
 
 // Initialize Firebase
@@ -70,7 +70,7 @@ function loadCartItems() {
 
 function setupRazorpay(total) {
     const options = {
-        "key": "rzp_test_lv14bQQ1irP7wb", 
+        "key": "****", 
         "amount": total * 100, // Amount in paise
         "currency": "INR",
         "name": "Smart Cart",
